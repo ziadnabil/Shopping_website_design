@@ -1,0 +1,95 @@
+.in{
+    display: inline-block;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img1{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.header {
+    position: relative;
+    width: 100%;
+    z-index: 10;
+    height: 40px;
+    padding-bottom: 10px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:290px;
+    border-radius: 5px;
+    align-items: center;
+    padding: 20px;
+    margin :30px ;
+    margin-top: 100px;
+    display: inline-block;
+    background-color: white;
+}
+.button{
+    background-color: darkorange;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    width: 130px;
+}
+.button:hover {
+    background-color: darkred;
+}
+.checked {
+    color: orange;
+}
+
+.a{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    padding-left: 20px;
+    color: black;
+    margin-bottom: 7px;
+}
+.a1{
+    text-decoration: none;
+}
+.a:hover{
+    background-color: lightgray;
+}
+.vertical {
+    border-left: 2px solid black;
+    height: 1140px;
+    display: inline-block;
+}
+.in2{
+    background-color: white;
+    padding: 20px;
+    margin-right: 100px;
+    width: 10%;
+    margin-left: 10px;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.a1{
+    text-decoration: none;
+    margin: 0%;
+    color: white;
+}

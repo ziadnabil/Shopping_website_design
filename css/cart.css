@@ -1,0 +1,47 @@
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 80%;
+    height: 700px;
+    border-radius: 5px;
+    align-items: center;
+    padding: 20px;
+    margin :100px ;
+    display: inline-block;
+    background-color: white;
+}
+img{
+    width: 120px;
+    height: 100px;
+}
+div{
+    /* border: 2px solid black; */
+}
+.in{
+    display: inline-block;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    
+}
+.button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button:hover {
+    background-color: darkred;
+}
